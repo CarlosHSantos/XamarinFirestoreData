@@ -1,4 +1,6 @@
-﻿using Android.App;
+﻿using System;
+using Android.App;
+using Android.Gms.Tasks;
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Widget;
@@ -9,9 +11,9 @@ using Java.Util;
 namespace firestoreArray
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : AppCompatActivity, IOnSuccessListener
     {
-        Button saveButton;
+        Button saveButton, loadOrganizationButton;
         TextView resultTextView;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -21,8 +23,20 @@ namespace firestoreArray
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
             saveButton = (Button)FindViewById(Resource.Id.saveButton);
+            loadOrganizationButton = (Button)FindViewById(Resource.Id.LoadOrganizationButton);
             saveButton.Click += SaveButton_Click;
+            loadOrganizationButton.Click += LoadOrganizationButton_Click;
             resultTextView = (TextView)FindViewById(Resource.Id.resultTextView);
+        }
+
+        private void LoadOrganizationButton_Click(object sender, EventArgs e)
+        {
+            FecthOrganization();
+        }
+
+        private void FecthOrganization()
+        {
+            GetFireStore().Collection("organizations").Get().AddOnSuccessListener(this);
         }
 
         private void SaveButton_Click(object sender, System.EventArgs e)
@@ -68,6 +82,24 @@ namespace firestoreArray
                 database = FirebaseFirestore.GetInstance(app);
             }
             return database;
+        }
+
+        public void OnSuccess(Java.Lang.Object result)
+        {
+            var snapshot = (QuerySnapshot)result;
+
+            if (!snapshot.IsEmpty)
+            {
+                var documents = snapshot.Documents;
+                string resultString = string.Empty;
+                foreach (var item in documents)
+                {
+                    // here you can retrieve all data from organizations document.
+                    resultString += $"organizationKey: {item.Get("organizationKey")}, companyName: {item.Get("companyName")} "; 
+                }
+
+                resultTextView.Text = resultString;
+            }
         }
     }
 }

@@ -1,0 +1,188 @@
+{
+  "project_info": {
+    "project_number": "784039552683",
+    "firebase_url": "https://eld-efs-sandbox-5576df8f.firebaseio.com",
+    "project_id": "eld-efs-sandbox-5576df8f",
+    "storage_bucket": "eld-efs-sandbox-5576df8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784039552683:android:c369a46e59d6673816f9ee",
+        "android_client_info": {
+          "package_name": "biz.iseinc.eFleetSuite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784039552683-3k0uoissc1a8co4g11nb6un302eavtr2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "biz.iseinc.eFleetSuite",
+            "certificate_hash": "5c3015ad55a33290859ba1a73a9a53f398969fa4"
+          }
+        },
+        {
+          "client_id": "784039552683-c4dfcb0j70ht2tc6fvq2u5taa86bsfv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCELmCmkp8etxQ-jtm7AR0rsXZvF_YdCVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784039552683-c4dfcb0j70ht2tc6fvq2u5taa86bsfv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784039552683:android:d1d3cfb02c23d31816f9ee",
+        "android_client_info": {
+          "package_name": "com.trimble.eld.hack.mobile.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784039552683-ou5u02tjpl0r9h5qvgjfjh49p0kvdn5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trimble.eld.hack.mobile.debug",
+            "certificate_hash": "25388fabed81fe983a79a4f0b2ce78ec76af7346"
+          }
+        },
+        {
+          "client_id": "784039552683-c4dfcb0j70ht2tc6fvq2u5taa86bsfv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCELmCmkp8etxQ-jtm7AR0rsXZvF_YdCVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784039552683-c4dfcb0j70ht2tc6fvq2u5taa86bsfv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784039552683:android:865ac1e99afca2cc16f9ee",
+        "android_client_info": {
+          "package_name": "com.trimble.eld.hack.mobile.release"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784039552683-3voe3ds3ac7k3oj5s72kinkukgre5pag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trimble.eld.hack.mobile.release",
+            "certificate_hash": "584f07823fb238c7f8541b3d89f3f46b3d3d14fe"
+          }
+        },
+        {
+          "client_id": "784039552683-c4dfcb0j70ht2tc6fvq2u5taa86bsfv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCELmCmkp8etxQ-jtm7AR0rsXZvF_YdCVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784039552683-c4dfcb0j70ht2tc6fvq2u5taa86bsfv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784039552683:android:d359b3b5839f840416f9ee",
+        "android_client_info": {
+          "package_name": "com.trimble.flutter.hackeld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784039552683-c4dfcb0j70ht2tc6fvq2u5taa86bsfv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCELmCmkp8etxQ-jtm7AR0rsXZvF_YdCVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784039552683-c4dfcb0j70ht2tc6fvq2u5taa86bsfv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784039552683:android:e0f44f586f13ca9416f9ee",
+        "android_client_info": {
+          "package_name": "com.trimble.ttm.eld.mobile.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784039552683-8e021thj12b2r9o6cddn9a8njm7iss7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trimble.ttm.eld.mobile.debug",
+            "certificate_hash": "d26054e936f35e7d9f730112d2199535ce8a1d32"
+          }
+        },
+        {
+          "client_id": "784039552683-c4dfcb0j70ht2tc6fvq2u5taa86bsfv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCELmCmkp8etxQ-jtm7AR0rsXZvF_YdCVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784039552683-c4dfcb0j70ht2tc6fvq2u5taa86bsfv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
